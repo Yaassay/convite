@@ -10,14 +10,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #00eeff;
 }
 
 .content {
+    color: purple;
     text-align: center;
 }
 
 button {
+    background-color: #fffb00;
     padding: 10px 20px;
     margin: 10px;
     font-size: 18px;
