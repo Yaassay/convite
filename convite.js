@@ -1,13 +1,13 @@
 document.getElementById('yesBtn').addEventListener('click', function() {
     // Esconde o conteúdo inicial
     document.querySelector('.content').classList.add('hidden');
-    // Exibe a imagem em tela cheia
+    // Exibe a primeira imagem surpresa
     document.getElementById('image-container').classList.remove('hidden');
 });
 
 document.getElementById('noBtn').addEventListener('click', function() {
     // Esconde o conteúdo inicial
     document.querySelector('.content').classList.add('hidden');
-    // Exibe a mensagem de spam
-    document.getElementById('spam-message').classList.remove('hidden');
+    // Exibe a segunda imagem surpresa
+    document.getElementById('image-container-no').classList.remove('hidden');
 });
